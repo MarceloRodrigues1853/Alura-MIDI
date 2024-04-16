@@ -1,4 +1,4 @@
-# Alura-MIDI
+# Alura MIDI
 
 [![Alura](https://img.shields.io/badge/Alura-Frontend-blue)](https://www.alura.com.br/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-green)](https://github.com/seu-usuario/nome-do-repo)
