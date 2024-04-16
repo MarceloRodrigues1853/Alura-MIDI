@@ -30,7 +30,7 @@ Este projeto consiste na implementação de um **Teclado Musical** interativo ut
 
 Para acessar, clique aqui.
 
-[Alura MIDI](https://challenge-one-portfolio-nine.vercel.app/)
+[Alura MIDI](https://alura-midi-two-omega.vercel.app/)
 #
 
 ## Instalação e Uso:
