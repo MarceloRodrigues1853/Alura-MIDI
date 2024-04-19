@@ -89,13 +89,12 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-top: 50px;
-  position: absolute; /* Alterando a posição para absoluta */
-  right: 40px; /* Definindo a margem direita */
-  top: 490px;
-  height: 300px;
-  width: 300px;
-  max-width: 330px;
+  margin-top: 40px;
+  position: relative;
+  
+  height: 250px;
+  width: 550px;
+  max-width: 550px;
 }
 
 #legenda h2 {
@@ -105,15 +104,25 @@ h1 {
   margin-bottom: 10px;
 }
 
-#legenda ul {
+#legenda h3 {
+  color: var(--branca);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#legenda ul.coluna {
   list-style-type: none;
   padding: 0;
+  column-count: 2; /* Divide os itens da lista em duas colunas */
+  max-height: 200px; /* Define uma altura máxima para o contêiner da lista */
+  overflow-y: auto; /* Adiciona uma barra de rolagem vertical se a lista ultrapassar a altura máxima */
 }
 
 #legenda li {
   font-size: 1.1rem;
   margin-bottom: 5px;
-  color: var(--branca)
+  color: var(--branca);
 }
 
 #legenda li strong {
